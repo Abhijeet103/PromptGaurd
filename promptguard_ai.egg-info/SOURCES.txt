@@ -1,7 +1,7 @@
 README.md
 pyproject.toml
 promptguard/__init__.py
-promptguard/bechmark.py
+promptguard/benchmark.py
 promptguard/data.py
 promptguard/promptguard.py
 promptguard/utils.py

@@ -39,7 +39,7 @@ PromptGuard detects these risks using:
 * **Explainable results** — see *why* a prompt was flagged
 * **Easy to integrate** — pure Python, no C bindings
 * **Modular** — use as a library, CLI tool, or microservice
-* **Customizable ruleset** — extendable via `data.py` or `rules.json`
+* **Customizable ruleset** — extendable via `data.py` or `rules.yaml`
 
 ---
 
@@ -170,7 +170,7 @@ print(result)
 | ----------- | ------------------------------------------------------------ | ------- |
 | `semantic`  | Enable MiniLM-based semantic detection                       | `True`  |
 | `threshold` | Cosine similarity cutoff for semantic flagging               | `0.85`  |
-| `rules`     | Source rule patterns (`promptguard/data.py` or `rules.json`) | —       |
+| `rules`     | Source rule patterns (`promptguard/data.py` or `rules.yaml`) | —       |
 
 ---
 
