@@ -1,9 +1,9 @@
 import pytest
 
-from promptguard.promptguard import PromptGuard
+from promptguard.promptguard_llm import PromptGuard
 
 # Create a single PromptGuard instance for all tests (fast)
-guard = PromptGuard(semantic=True)
+guard = PromptGuard()
 
 def check_prompt(text: str):
     """Wrapper for backward compatibility — now calls PromptGuard.analyze()."""
