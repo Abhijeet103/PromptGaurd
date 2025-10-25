@@ -1,3 +1,22 @@
+Metadata-Version: 2.4
+Name: promptguard-ai
+Version: 0.1.1
+Summary: A fast, layered prompt injection detection engine for AI and LLM systems.
+Author-email: Abhijeet Kumar Jha <abhijeet@example.com>
+License: MIT
+Project-URL: Homepage, https://github.com/Abhijeet103/promptguard
+Project-URL: Bug Tracker, https://github.com/Abhijeet103/promptguard/issues
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.24.0
+Requires-Dist: scikit-learn>=1.3.0
+Requires-Dist: sentence-transformers>=2.5.0
+Requires-Dist: transformers>=4.40.0
+Requires-Dist: torch>=2.1.0
+Requires-Dist: huggingface-hub>=0.23.0
+Requires-Dist: tqdm>=4.65.0
+Requires-Dist: flashtext>=2.7
+
 # PromptGuard — Super-Fast Prompt Safety Detection System
 
 [PyPI: promptguard-ai](https://pypi.org/project/promptguard-ai/0.1.1/)
