@@ -1,0 +1,26 @@
+override_instructions:
+  - ignore previous instructions
+  - bypass restrictions
+  - disregard above rules
+  - forget the system prompt
+  - override safety measures
+
+data_exfiltration:
+  - reveal system prompt
+  - show api key
+  - display credentials
+  - dump memory
+  - access token
+
+execution_requests:
+  - run command
+  - execute shell
+  - delete all files
+  - drop database
+  - open terminal
+
+role_change:
+  - act as system
+  - pretend you are developer mode
+  - switch role
+  - respond as admin
