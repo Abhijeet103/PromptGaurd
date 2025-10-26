@@ -26,10 +26,10 @@ RULES = rules
 class PromptGuard:
     """
     Optimized LLM-enhanced prompt injection detector:
-      1️⃣ Keyword / regex heuristics
-      2️⃣ Sensitive-action detection
-      3️⃣ Quantized LLM-based intent classification (multilingual)
-      4️⃣ Optional fuzzy fallback
+      1️Keyword / regex heuristics
+      2️ Sensitive-action detection
+      3️ Quantized LLM-based intent classification (multilingual)
+      4️ Optional fuzzy fallback
     """
     def __init__(self, llm_model="Qwen/Qwen2.5-0.5B-Instruct", fuzzy=False):
         self.keyword_matcher = KeywordMatcher()
